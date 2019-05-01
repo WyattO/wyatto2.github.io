@@ -1,0 +1,13 @@
+body{
+    background: url(http://www.rww.co.za/wp-content/uploads/2018/01/RWW-background-1.jpg);
+    background-size: 100% 100%;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td,li,ol {
+  padding: 12px;
+  text-align: left;
+}
