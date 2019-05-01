@@ -16,3 +16,7 @@ th, td,li,ol {
 p{
   font: 15px arial, sans-serif;
 }
+
+#title{
+    font: 20px;
+}
