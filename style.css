@@ -1,3 +1,4 @@
+/* Created Css file*/
 body{
     background: url(http://www.rww.co.za/wp-content/uploads/2018/01/RWW-background-1.jpg);
     background-size: 100% 100%;
@@ -10,4 +11,7 @@ table, th, td {
 th, td,li,ol {
   padding: 12px;
   text-align: left;
+}
+p{
+  font: 15px arial, sans-serif;
 }
