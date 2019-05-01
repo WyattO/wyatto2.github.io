@@ -12,6 +12,7 @@ th, td,li,ol {
   padding: 12px;
   text-align: left;
 }
+/* Added <p> Styling*/
 p{
   font: 15px arial, sans-serif;
 }
