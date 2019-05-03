@@ -78,3 +78,9 @@ flex: 24.5%;
   font-weight: bold;
   text-align: center;
 }
+
+.tech{
+  color: purple;
+  font-style: italic;
+  font-weight: bold;
+}
