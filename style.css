@@ -84,3 +84,8 @@ flex: 24.5%;
   font-style: italic;
   font-weight: bold;
 }
+
+.column50{
+  flex: 50%;
+  padding: 5px;
+}
