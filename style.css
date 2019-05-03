@@ -1,22 +1,74 @@
 /* Created Css file*/
 body{
-    background: url(http://www.rww.co.za/wp-content/uploads/2018/01/RWW-background-1.jpg);
-    background-size: 100% 100%;
+  background: url(http://www.rww.co.za/wp-content/uploads/2018/01/RWW-background-1.jpg);
+  background-size: 100% 100%;
+  margin: 0;
 }
 
 table, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
+border: 2px solid black;
+border-collapse: collapse;
 }
 th, td,li,ol {
-  padding: 12px;
-  text-align: left;
+padding: 12px;
+text-align: left;
 }
 /* Added <p> Styling*/
 p{
-  font: 15px arial, sans-serif;
+font: 15px arial, sans-serif;
 }
 
+/* Setting Navigation Bar to color black*/
+.topnav{
+background-color: #333;
+overflow: hidden;
+padding-top: 20px;
+padding-bottom: 20px;
+width:100%;
+margin: 0px;
+border: 0px;
+
+}
+
+/* Styling the links inside the Navigation Bar*/
+.topnav a{
+
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 22px;
+width: 100%;
+}
+
+.topnav a:hover{
+background-color: #ddd;
+color: black;
+}
+
+/* Setting the team name to 20px and in the center */
 #title {
-    font: 20px;
+  font: 20px;
+  text-align: center;
+}
+
+/* Setting the name of diego guzman bold and in the middle of the page */
+.diegoName{
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Setting a row for the set of Diego's images */
+.row{
+display: flex;
+}
+
+/* Setting each image as a column */
+.column{
+flex: 33.33%;
+padding: 5px;
+}
+/* last image in Diego's row was larger than the others so it had to be adjusted */
+#self{
+flex: 24.5%;
 }
