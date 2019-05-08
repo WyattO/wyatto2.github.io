@@ -104,7 +104,7 @@ display: flex;
 
 /* Setting each image as a column - Edison */
 .column10{
-  flex: 100%;
+  flex: 33.33%;
   padding: 5px;
 }
 
