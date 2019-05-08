@@ -49,8 +49,10 @@ color: black;
 }
 
 /* Setting the team name to 20px and in the center */
+/* Setting the team name to 50px and changing font family */
 #title {
-  font: 20px;
+  font: sans-serif; 
+  font-size: 50px;
   text-align: center;
 }
 
