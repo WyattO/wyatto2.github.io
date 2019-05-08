@@ -15,7 +15,9 @@ text-align: left;
 }
 /* Added <p> Styling*/
 p{
-font: 15px arial, sans-serif;
+font: 20px arial, sans-serif;
+margin: 30px;
+text-indent: 50px;
 }
 
 /* Setting Navigation Bar to color black*/
@@ -88,4 +90,29 @@ flex: 24.5%;
 .column50{
   flex: 50%;
   padding: 5px;
+}
+
+/* Centering Name - Edison */
+.EdisonName{
+  font-weight: bold;
+  text-align: center;
+}
+/* Setting a row for the set of Edison's images */
+.row10{
+display: flex;
+}
+
+/* Setting each image as a column - Edison */
+.column10{
+  flex: 100%;
+  padding: 5px;
+}
+
+/* Correcting the sizes of my (Edison) two last images
+#Edisonself{
+flex: 95%;
+}
+
+#Edisonself2{
+flex: 102%;
 }
